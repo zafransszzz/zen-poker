@@ -1,0 +1,27 @@
+{
+  "name": "poker-game",
+  "version": "1.0.0",
+  "description": "A poker game application deployed on the Zenchain testnet.",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "truffle test",
+    "migrate": "truffle migrate --network testnet",
+    "start": "http-server src"
+  },
+  "dependencies": {
+    "web3": "^1.6.1",
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {
+    "truffle": "^5.4.29",
+    "ganache-cli": "^6.12.2"
+  },
+  "keywords": [
+    "poker",
+    "blockchain",
+    "zenchain",
+    "smart-contract"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
